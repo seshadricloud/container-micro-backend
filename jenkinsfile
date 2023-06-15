@@ -6,15 +6,7 @@ pipeline {
                 script {
             sh """
              ls
-             """
-               }
-            } 
-            steps {
-                script {
-            sh """
-            ls
-            """
-                
+             """              
                 }
             }
             
