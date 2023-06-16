@@ -9,7 +9,7 @@ pipeline {
 	    sudo docker build -t frontend .
 	    sudo docker tag frontend:latest 315073111691.dkr.ecr.sa-east-1.amazonaws.com/frontend:latest
 	    sudo docker push 315073111691.dkr.ecr.sa-east-1.amazonaws.com/frontend:latest
-        """              
+            """              
                 }
             }
             
